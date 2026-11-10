@@ -1,0 +1,25 @@
+{
+  "name": "solana-gasless-example",
+  "description": "Gasless Solana transactions with a hosted Kora-compatible fee payer",
+  "scripts": {
+    "sponsored": "tsx --env-file-if-exists=.env src/sponsored.ts",
+    "pay-in-usdc": "tsx --env-file-if-exists=.env src/pay-in-usdc.ts",
+    "estimate": "tsx --env-file-if-exists=.env src/estimate.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@12.18.0",
+  "type": "module",
+  "dependencies": {
+    "@solana-program/system": "0.12.0",
+    "@solana-program/token": "0.12.0",
+    "@solana/kit": "6.10.0",
+    "@solana/kora": "0.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}
