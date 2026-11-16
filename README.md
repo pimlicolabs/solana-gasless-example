@@ -77,7 +77,9 @@ For mainnet, change `devnet` to `mainnet` in the URL in [`src/config.ts`](src/co
 
 ## Devnet runs
 
-These transactions were sent by the scripts in this repo. In each, the fee payer is Pimlico's devnet fee payer `pimXbt2GBQQGvZyDrxcKjepQ4JWZ7maqhvrqKYm3uQC` and the user, `3jfnTDh1T9RcL9UwWDRGUKj4527qQaVJXKJQLRpLqYL8`, holds 0 SOL.
+Pimlico's devnet fee payer is `pimyFkt39xfpXnaJ5c85eMrhn1YwartYfdHJd4YjA3Q`.
+
+These transactions were sent by the scripts in this repo. In each, the user, `3jfnTDh1T9RcL9UwWDRGUKj4527qQaVJXKJQLRpLqYL8`, holds 0 SOL.
 
 | Script | Transaction |
 |---|---|
